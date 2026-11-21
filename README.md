@@ -15,5 +15,5 @@
 
 ### Building with Claude Code
 
-- **[claude-code-for-pm-workspace](https://github.com/igoko-consulting/claude-code-for-pm-workspace):** discovery to prototype for a fictional personal-finance app, run from Claude Code, with versioned PRDs, stakeholder reviews and an HTML prototype.
+- **[claude-code-for-pm-workspace](https://github.com/igoko-consulting/claude-code-for-pm-workspace):** discovery to prototype for a fictional personal-finance app, run from Claude Code, with a PRD, role-played stakeholder reviews and an HTML prototype.
 - **Two private games, code available on request:** [Worldie](https://worldie-football.vercel.app), a retro arcade football game, and [Slapsies](https://slapsies.vercel.app), a light 2D fighting game whose characters are everyday pet peeves. Both play in a browser and run on iPhone, iPad and Mac, built by Claude Code in phases, each signed off after a playtest. Worldie's first version is complete; Slapsies is in progress.
