@@ -1,0 +1,19 @@
+**Martin Cook's personal portfolio.** Eight public projects and two private games, all non-commercial and none of them client work. Each repository stands alone as a project, written up in chapters drawn from my Product School courses in AI product strategy, evals, agents, go-to-market, leadership and Claude Code. Together they show how I frame a product decision, test it against evidence, and build with AI tools, often with a second model as reviewer.
+
+### Start here
+
+1. **[graph-risk-evals](https://github.com/igoko-consulting/graph-risk-evals):** for fraud and AML detection on one public Bitcoin dataset, invest in graph-derived features, not graph models. The features beat a tuned tabular baseline by a small margin; a graph neural network did not. Pre-registered and reproducible, costs modelled. A two-day discovery sprint. [Decision matrix](https://github.com/igoko-consulting/graph-risk-evals#the-decision-matrix)
+2. **[ai-evals](https://github.com/igoko-consulting/ai-evals):** HOLD. An audit of a fictional market-intelligence agent, Ascend IQ, found answers overstating their sources against a bar of zero. A judge tested on fresh answers, not a word list, became the release gate. [Ship-or-hold memo](https://github.com/igoko-consulting/ai-evals/blob/main/06-culture/ship-hold-memo.md)
+3. **[pm-os-agent](https://github.com/igoko-consulting/pm-os-agent):** Cortex, an agent that drafts a weekly leadership update, has it checked by code and a second model, and stops at a human because no tool can post. Fixture data only, never real Jira or Slack; built on a course template. [Recorded runs, failures included](https://github.com/igoko-consulting/pm-os-agent/tree/main/06-autonomy/traces)
+4. **[product-leadership](https://github.com/igoko-consulting/product-leadership):** one bet for a fictional wellness app: keep users once they recover with a personal nightly wind-down, and build no community layer. Taken from strategy and OKRs to a business case with a kill criterion, by way of a roadmap with hard nos, a charter for three PMs and a written no to a stakeholder. [Business case](https://github.com/igoko-consulting/product-leadership/blob/main/05-business-case/business-case.md)
+
+### Strategy and specification
+
+- **[my-AI-product-strategy](https://github.com/igoko-consulting/my-AI-product-strategy):** AI product strategy for a hypothetical travel-disruption copilot, my own idea: unit economics, an eval contract, governance and a costed 14-week test that stops at week 4 if carriers won't let seats be held. Figures are modelled; no traveller or carrier has been asked yet.
+- **[roamly-gtm-strategy](https://github.com/igoko-consulting/roamly-gtm-strategy):** go-to-market for a fictional group-booking feature, where each chapter's test, mostly by two AI models, changed an earlier answer.
+- **[juno-pm](https://github.com/igoko-consulting/juno-pm):** an end-to-end spec for Juno, a copilot for a fictional company that turns Slack, Jira and Notion escalations into a cited priority a PM approves, from prompt through RAG PRD, agent design and evals. Walked through by hand on one example; not yet run on a live model.
+
+### Building with Claude Code
+
+- **[claude-code-for-pm-workspace](https://github.com/igoko-consulting/claude-code-for-pm-workspace):** discovery to prototype for a fictional personal-finance app, run from Claude Code, with versioned PRDs, stakeholder reviews and an HTML prototype.
+- **Two private games, code available on request:** [Worldie](https://worldie-football.vercel.app), a retro arcade football game, and [Slapsies](https://slapsies.vercel.app), a light 2D fighting game whose characters are everyday pet peeves. Both play in a browser and run on iPhone, iPad and Mac, built by Claude Code in phases, each signed off after a playtest. Worldie's first version is complete; Slapsies is in progress.
